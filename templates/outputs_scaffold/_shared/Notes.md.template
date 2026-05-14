@@ -1,0 +1,82 @@
+# CV Notes — Decisions, Assumptions, and Reference
+
+> Living document. Updated every time the Vanilla or a JD-tailored variant changes.
+
+---
+
+## Chosen flavor and rationale
+
+**Flavor:** [Consulting/MBA | Tech/Engineering | Hybrid]
+
+**Why:** [1-2 sentences explaining the choice based on the user's profile and target market]
+
+---
+
+## Reference patterns applied (and skipped)
+
+| Pattern from reference CV | Applied? | Reason |
+|---|---|---|
+| Name capitalization (FIRST + LAST CAPS) | | |
+| Date format (`YYYY – YYYY` vs `MMM YYYY – MMM YYYY`) | | |
+| One-line company description below company name | | |
+| Prestige tag in Education | | |
+| US$ / % mix in bullets | | |
+| Specific patterns to call out | | |
+
+---
+
+## Assumptions to validate
+
+> The agent flags assumptions here as it works. **Read every line before applying.**
+
+- [ ] [Assumption 1] — confirmed by user on [date]?
+- [ ] [Assumption 2] — confirmed by user on [date]?
+
+---
+
+## Anonymization Log (private — do not share)
+
+> Original-to-anonymous mapping for every client name referenced in the Master Pool.
+> Do NOT commit this file to a shared repo without redacting this section.
+
+| Original | Anonymized in CV as | First appeared in |
+|---|---|---|
+| [Real client name] | [Sector + scale descriptor] | [Bullet ID or role] |
+|  |  |  |
+
+---
+
+## ATS export checklist
+
+- [ ] `pdftotext outputs/Vanilla/CV.pdf -` reads clean and in order
+- [ ] 1 page only
+- [ ] No literal client names in PDF text (search via grep)
+- [ ] No LIFT-derived phrases verbatim
+- [ ] Phone + email + LinkedIn correct
+- [ ] Photo size 80–150 KB
+- [ ] Filename matches convention: `CV_<Company>_<Role>.pdf`
+
+---
+
+## Keywords already woven in (Vanilla)
+
+[List of generic-market keywords already present in the Vanilla CV. Use this list to avoid double-mirroring when tailoring.]
+
+- [keyword1]
+- [keyword2]
+
+---
+
+## Per-variant log
+
+> One row per JD-tailored variant created. Lets you trace why each variant exists.
+
+| Variant | Company | Role | Date created | JD source | Status |
+|---|---|---|---|---|---|
+| [filename] | [Company] | [Role] | [YYYY-MM-DD] | [URL or paste] | [draft / applied / replied / closed] |
+
+---
+
+## Recommendations
+
+[Free-form section the agent uses to leave forward-looking advice — e.g., "Once Engagement X closes, get final $-impact and update the lead bullet", "Get a Gemini Enterprise credential to strengthen Google Cloud applications", etc.]

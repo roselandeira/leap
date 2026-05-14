@@ -1,0 +1,73 @@
+# Master Pool — All Generated Bullets
+
+> This file is the reusable bullet pool for all future role-tailored CV variants.
+> Every bullet LEAP has generated lives here, tagged by theme.
+> The Vanilla CV is built by selecting a subset of these bullets that read as a coherent profile.
+> Per-JD variants pull from this pool by tag.
+>
+> **Anonymization Log lives in `Notes.md`, not here, so this file is safe to share.**
+
+---
+
+## Tagging convention
+
+Every bullet starts with backtick-quoted tags. Standard tags:
+
+| Tag | Meaning |
+|---|---|
+| `#strategy` | Strategy work — corporate, business unit, product, growth |
+| `#operations` | Operating model, process, ways-of-working |
+| `#growth` | Revenue, market expansion, new product launches |
+| `#ai-impact` | AI/GenAI delivery — capability building, AI-first transformation, AI tooling |
+| `#leadership` | Team leadership, hiring, scaling teams |
+| `#people-development` | Mentoring, coaching, training (often LIFT-sourced theme) |
+| `#transformation` | Large-scale change programs |
+| `#client-counselor` | C-suite trust, executive advisory |
+| `#technical` | Hands-on engineering or quantitative depth |
+| `#product` | Product management, roadmap, prioritization |
+| `#international` | Cross-border / multi-country delivery |
+| `#publicly-disclosed` | Engagement where the client is publicly disclosed; safe to name |
+
+Custom tags allowed (e.g., `#fintech`, `#regulated`, `#b2b-saas`). Document additions in `Notes.md`.
+
+---
+
+## How to use this file
+
+When tailoring a CV for a specific JD:
+1. Identify the JD's top themes (e.g., "AI adoption", "regional enablement", "sales-team restructuring").
+2. Filter this file by relevant tags.
+3. Within each role, pick the top 4–6 bullets that hit the JD's themes hardest.
+4. Reorder within the role from highest-relevance to lowest.
+
+A bullet marked `*(Featured)*` is the version currently used in the Vanilla CV.
+
+---
+
+## Bullets — Current Role: [Company Name]
+
+- `#tag1` `#tag2` [Generated bullet text here]. *(Featured)*
+- `#tag1` `#tag2` [Generated bullet text here].
+- `#tag1` [Generated bullet text here].
+
+## Bullets — Previous Role: [Company Name]
+
+- `#tag1` `#tag2` [Generated bullet text here]. *(Featured)*
+- `#tag1` [Generated bullet text here].
+
+## Bullets — Earlier Role: [Company Name]
+
+- `#tag1` [Generated bullet text here]. *(Featured)*
+
+---
+
+## Always present in every variant
+
+- **Languages:** [Portuguese (Native), English (Fluent), ...]
+- **Nationality and Work Authorization:** [...]
+- **International project experience:** [...]
+
+## Possible additions when a JD calls for it
+
+- `#publicly-disclosed` variant of [Engagement X] when applying to roles where the client name is appropriate to surface.
+- Specific tooling line items when a JD calls them out (e.g., NotebookLM, Gemini Enterprise if you've used them).

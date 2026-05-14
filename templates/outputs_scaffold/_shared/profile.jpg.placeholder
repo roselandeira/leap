@@ -1,0 +1,16 @@
+PLACEHOLDER
+
+Drop your professional headshot here, named profile.jpg.
+
+Recommendations (see design_system/design_tokens.md):
+- ~600px wide minimum
+- Shoulders-up, face in upper half
+- Neutral background
+- JPEG quality 85-90
+- Target size: 80-150 KB
+
+The HTML references this image as ../_shared/profile.jpg, so once
+you save it with the right filename in this folder, every variant
+renders with your photo automatically.
+
+Delete this placeholder file once your real profile.jpg is in place.

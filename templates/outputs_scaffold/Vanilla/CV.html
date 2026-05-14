@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>[YOUR NAME] — CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  /* The full canonical stylesheet is at design_system/style.css.
+     LEAP variants embed it inline so each PDF is self-contained. */
+  :root {
+    --accent: #1F3A5F;
+    --accent-soft: #345783;
+    --ink: #1F2937;
+    --muted: #5B6473;
+    --rule: #D8DEE7;
+  }
+  @page { size: Letter; margin: 0.45in 0.55in; }
+  html, body {
+    margin: 0; padding: 0; background: #ffffff; color: var(--ink);
+    font-family: 'Inter', Calibri, "Helvetica Neue", Arial, sans-serif;
+    font-size: 10.2pt; line-height: 1.24;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  header {
+    display: flex; align-items: center; gap: 15pt;
+    padding-bottom: 6pt; margin-bottom: 2pt;
+    border-bottom: 1pt solid var(--accent);
+  }
+  .photo {
+    flex: 0 0 88pt; width: 88pt; height: 108pt;
+    object-fit: cover; object-position: center 18%;
+    border-radius: 4pt; box-shadow: 0 1pt 4pt rgba(31, 58, 95, 0.18);
+  }
+  .header-text { flex: 1 1 auto; min-width: 0; }
+  .name {
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+    font-weight: 700; font-size: 26pt; line-height: 1.05;
+    letter-spacing: 0.3pt; color: var(--accent); margin: 0 0 3pt 0;
+  }
+  .name .last { letter-spacing: 1pt; }
+  .role {
+    font-family: 'Inter', sans-serif; font-weight: 500; font-size: 10.5pt;
+    color: var(--accent-soft); text-transform: uppercase;
+    letter-spacing: 1.5pt; margin: 0 0 6pt 0;
+  }
+  .contact { font-size: 9.7pt; color: var(--muted); line-height: 1.45; }
+  .contact .sep { color: var(--rule); margin: 0 4pt; }
+  h2 {
+    font-family: 'Inter', sans-serif; font-size: 10.8pt; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 1.8pt; color: var(--accent);
+    margin: 5pt 0 2pt 0; padding-bottom: 1pt;
+    border-bottom: 0.6pt solid var(--rule);
+  }
+  .company-line { font-weight: 600; font-size: 10.8pt; margin: 3pt 0 0 0; color: var(--ink); }
+  .title-line { font-size: 9.8pt; color: var(--muted); margin: 0 0 0.5pt 0; font-weight: 500; }
+  .title-line strong { color: var(--ink); font-weight: 600; }
+  .institution { font-weight: 600; font-size: 10.8pt; margin: 2pt 0 0 0; }
+  .degree { font-size: 9.8pt; color: var(--muted); margin: 0 0 0.5pt 0; font-weight: 500; }
+  .degree strong { color: var(--ink); font-weight: 600; }
+  ul { margin: 0.5pt 0 1.5pt 0; padding-left: 14pt; list-style: disc; }
+  ul li::marker { color: var(--accent-soft); font-size: 0.9em; }
+  li { margin: 0 0 0.9pt 0; text-align: justify; text-justify: inter-word; }
+  .skills-list li, .info-list li { text-align: left; }
+  .skills-list strong, .info-list strong { color: var(--accent); font-weight: 600; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</head>
+<body>
+  <header>
+    <img class="photo" src="../_shared/profile.jpg" alt="[YOUR NAME]" />
+    <div class="header-text">
+      <div class="name">[YOUR NAME]</div>
+      <div class="role">[YOUR TITLE]  ·  [YOUR POSITIONING THEMES]</div>
+      <div class="contact">
+        [YOUR LINKEDIN URL]
+        <span class="sep">|</span>
+        [YOUR EMAIL]
+        <span class="sep">|</span>
+        [+YOUR PHONE]
+      </div>
+    </div>
+  </header>
+
+  <h2>Professional Experience</h2>
+
+  <div class="company-line">[Current Company]  ·  [City, Country]</div>
+  <div class="title-line"><strong>[Current Title]</strong>  ·  [YYYY] – Present</div>
+  <ul>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+  </ul>
+
+  <div class="company-line">[Previous Company]  ·  [City, Country]</div>
+  <div class="title-line"><strong>[Previous Title]</strong>  ·  [YYYY] – [YYYY]</div>
+  <ul>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+  </ul>
+
+  <div class="company-line">[Earlier Company]  ·  [City, Country]</div>
+  <div class="title-line"><strong>[Earlier Title]</strong>  ·  [YYYY] – [YYYY]</div>
+  <ul>
+    <li>[Verb] [scope + team size] to [goal] [$ / % impact] via [how].</li>
+  </ul>
+
+  <h2>Education</h2>
+  <div class="institution">[University Name] (Prestige Tag if Relevant)  ·  [City, Country]</div>
+  <div class="degree"><strong>[Degree]</strong>  ·  [YYYY] – [YYYY]</div>
+  <ul>
+    <li>[Honors, relevant coursework, leadership, awards — one line].</li>
+  </ul>
+
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li><strong>Programming and Data:</strong> [Python, SQL, ...]</li>
+    <li><strong>AI and GenAI tooling:</strong> [Cursor, Claude Code, ...]</li>
+    <li><strong>Cloud and Enterprise Platforms:</strong> [Azure, GCP, AWS, SAP, ...]</li>
+  </ul>
+
+  <h2>Additional Information</h2>
+  <ul class="info-list">
+    <li><strong>Nationality and Work Authorization:</strong> [Citizenship and work-authorization countries]</li>
+    <li><strong>International project experience:</strong> [On-site delivery in Country A, Country B (Role)]</li>
+    <li><strong>Languages:</strong> [Portuguese (Native), English (Fluent), ...]</li>
+  </ul>
+
+</body>
+</html>
