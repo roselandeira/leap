@@ -29,10 +29,12 @@ The 4th, continuous-interaction mode:
 ## Critical rules (non-negotiable)
 
 1. **Never fabricate** metrics, experiences, dates, awards, languages, tools.
-2. **Never name clients** that aren't publicly disclosed. Default to sector + scale descriptors. Log the original-to-anonymous mapping in `Notes.md` (which is never shared).
-3. **Never quote LIFT** content verbatim. Use it for theme-mining only.
-4. **Never copy** content from the reference CV. Style only.
-5. **Always flag** min-qual gaps when tailoring. Recommend mitigation (referral, framing) instead of hiding.
+2. **Never name a client** — anonymize by sector + scale + geography by default. The only exception is an explicit user override in chat, applied to a per-JD variant only. Log the original-to-anonymous mapping in `Notes.md` (which is never shared).
+3. **One role per company** — when the candidate held multiple titles at the same employer (e.g., Associate → JEM → EM), show only the most recent title with one consolidated date range. Optionally add a single italic line about promotion velocity.
+4. **One-line ratings** — collapse all performance ratings, percentile rankings, and awards into a single italic line under the role header (≤ 12 words). Never list ratings cycle by cycle. Never lift verbatim quotes from feedback memos.
+5. **Never quote LIFT** content verbatim. Use it for theme-mining only.
+6. **Never copy** content from the reference CV. Style only.
+7. **Always flag** min-qual gaps when tailoring. Recommend mitigation (referral, framing) instead of hiding.
 
 ## Companion playbooks
 

@@ -92,9 +92,18 @@ your-workspace/
 
 ---
 
-## 4. CLIENT CONFIDENTIALITY CONVENTION (mandatory)
+## 4. CLIENT CONFIDENTIALITY CONVENTION (mandatory — non-negotiable)
 
-You will be reading McKinsey feedback memos. Those memos name clients. **The CV must never name a client unless that engagement has been publicly disclosed by the client or by a McKinsey case study.**
+You will be reading McKinsey feedback memos, growth plans, and LIFT reports. Those documents name clients. **The CV must NEVER, under any circumstance, name a client.** This applies regardless of:
+
+- Whether you (the agent) believe the engagement was publicly disclosed.
+- Whether the client has co-published a McKinsey case study.
+- Whether the user verbally tells you the engagement is "OK to share".
+- Whether the client name appears in the user's LinkedIn or older CVs.
+
+The only acceptable exception is when **the user explicitly types "name client X for variant Y"** in chat — in which case the named version goes into the per-JD variant only, never into the Vanilla CV, and the override is logged in `Notes.md`.
+
+Default behavior: **anonymize every client by sector + scale + geography**, even if it makes the bullet less impressive. The CV must read identically whether the recruiter is at the client's competitor or at the client itself.
 
 ### Default: anonymize by sector + scale
 
@@ -109,9 +118,15 @@ Replace specific client names with descriptors that convey scope, scale, and pre
 | Specific retail chain | `national retail chain with 1,500+ stores` |
 | Specific tech services firm | `5-country LATAM tech-services firm` |
 
-### Exception: named variants when public
+### Exception: named variants only with explicit user override
 
-If a client has co-published a case study with McKinsey or a partner firm (e.g., a publicly disclosed AI transformation case), you *may* offer a named variant in the Master Pool, clearly tagged `#publicly-disclosed`. The Vanilla CV should still default to anonymized; named versions are surfaced only when the user asks for a CV targeting a context where the disclosure is appropriate.
+A named variant is produced **only** when the user types an explicit override in chat (e.g., "Use the real name 'Bank X' in the variant for Company Y because the engagement is public"). Even then:
+
+- The named version is per-variant only — never the Vanilla.
+- Tag the bullet `#publicly-disclosed` in the Master Pool.
+- Log the override in `Notes.md` with the user's exact phrasing as evidence.
+
+Without an explicit override, **always default to anonymized — no exceptions, no judgment calls.**
 
 ### Numbers and metrics
 
@@ -231,7 +246,49 @@ If the user has not provided a metric, ask via the Metrics Questionnaire. **Neve
 - Final file: text-based PDF (never image/scan). Validate by pasting PDF into Notepad — if the text comes out clean, the ATS will parse it.
 - **The visually-rich PDF and the ATS-safe PDF can be the same file** if you keep your photo + styling decisions inside the HTML/CSS and your bullet content as semantic `<ul><li>` with proper reading order. LEAP's HTML template enforces this — don't break it.
 
-### 6.4 Formatting conventions
+### 6.4 Single-role-per-company (mandatory)
+
+When the candidate held multiple titles at the same company (e.g., Associate → JEM → EM, or Analyst → Senior Analyst → Manager), **show only the most recent title** with a single consolidated date range covering the entire tenure. Aggregate bullets across all titles into one block under the most recent title.
+
+Do NOT list each promotion as a separate sub-block — that wastes vertical space and signals junior framing.
+
+Optional: if career-velocity is itself a selling point for the role, add a single italicized line under the role header (e.g., *"Promoted from Associate to Engagement Manager in 24 months."*). Use sparingly and only when it materially strengthens the candidate's narrative.
+
+**Example — wrong:**
+```
+McKinsey & Company · Engagement Manager (May 2025 – Present)
+- bullet
+McKinsey & Company · Junior Engagement Manager (Oct 2024 – May 2025)
+- bullet
+McKinsey & Company · Associate (Apr 2023 – Sep 2024)
+- bullet
+```
+
+**Example — right:**
+```
+McKinsey & Company · Engagement Manager · São Paulo (Apr 2023 – Present)
+*Promoted from Associate to EM in 24 months. Top 5% of cohort.*
+- consolidated bullet 1
+- consolidated bullet 2
+```
+
+### 6.5 One-line ratings (mandatory)
+
+Performance ratings, awards, and percentile rankings must collapse into **a single line** placed directly under the role header (italics, ≤ 12 words). Never list ratings cycle by cycle.
+
+**Acceptable patterns:**
+- *"Top 5% of cohort (Distinction, 2024)."*
+- *"Top 10% performer across all peer cycles."*
+- *"Distinction rating; promoted twice in 24 months."*
+
+**Not acceptable:**
+- *"'Distinctive' rating in 2024 (top 5%); 'Very Strong' in 2025; 'Strong' in 2023."* (multi-cycle list)
+- *"5/5 across every dimension in firm 360 feedback tool."* (overclaim if sample is < 10 reviewers)
+- *"Best EM peers have ever worked with."* (verbatim quote from a feedback memo — never lift)
+
+If the user has multiple noteworthy ratings across employers (e.g., Distinction at one consulting firm AND Top 10% at another), each gets its own one-line on its respective company block — never stacked.
+
+### 6.6 Formatting conventions
 
 - **Name on top:** First name in normal case, **LAST NAME IN ALL CAPS** for consulting/MBA flavor (e.g., `Maria SILVA`). Optional regular-case last name for tech flavor. User's preference wins.
 - **Contact line:** `LinkedIn URL | email | phone with country code` on a single line.
