@@ -24,9 +24,13 @@ $RECYCLE.BIN/
 # LEAP — user-private files that should never be committed.
 # Real user data lives at root-level inputs/ and outputs/ when they
 # bootstrap a workspace from templates/outputs_scaffold/.
-# templates/ and examples/ are repo content and must NOT be ignored.
+# templates/ and the canonical examples/maria_silva/ are repo content
+# and must NOT be ignored. Other examples/* folders are user-private
+# scratchpads and stay local only.
 /inputs/
 /outputs/
+/examples/*
+!/examples/maria_silva/
 
 # A user might also keep inputs alongside the repo at this convention:
 /my_cv/
