@@ -23,7 +23,7 @@ Built to run inside [Cursor](https://cursor.com/) with any modern LLM. Portable 
 
 ```bash
 # 1. Clone
-git clone git@github.com:McK-Private/leap.git
+git clone git@github.com:roselandeira/leap.git
 cd leap
 
 # 2. Copy the scaffold into the directory where you want your own CV to live
@@ -96,7 +96,7 @@ You already have a Vanilla + Master Pool. A new JD landed. You want a role-speci
 Most AI CV builders do two things wrong:
 
 1. **They invent.** They'll happily make up a $50M outcome to fill a gap. LEAP refuses; it stops and asks.
-2. **They ignore context.** They don't know what a ROYG memo is, what LIFT reports actually contain, or how McKinsey client confidentiality works. LEAP is built around those primitives.
+2. **They ignore context.** They don't know what a ROYG memo is, what LIFT reports actually contain, or how client confidentiality works. LEAP is built around those primitives.
 
 LEAP also enforces the boring stuff: one page, ATS-safe text layer, JD keyword mirroring without synonym substitution, quantification on every bullet, and a tag-based bullet pool that makes per-JD tailoring a 10-minute job instead of a weekend.
 
@@ -121,12 +121,6 @@ These are non-negotiable. They live in `system_prompt.md` but are restated here 
 4. **Never copy from the reference CV.** Style only, never content.
 
 If the agent ever drifts from these, stop it and re-anchor.
-
----
-
-## Contributing
-
-This is an internal McKinsey-Private toolkit. If you're using it and find an improvement (better questionnaire templates, new bullet patterns, JD-type specializations), open a PR on `McK-Private/leap`.
 
 ---
 
